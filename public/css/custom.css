@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Karla";
+    src: url("../fonts/Karla-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Karla-Bold";
+    src: url("../fonts/Karla-Bold.ttf");
+    font-style: normal;
+}
+.font-20 {
+    font-size: 20px;
+}
+label {
+    font-size: 20px;
+}
+.btn {
+    font-size: 20px;
+}
+.btn-primary {
+    background-color: #a72dcb !important;
+    border-color: #a72dcb !important;
+}
+.text-primary {
+    color: #a72dcb !important;
+}
+.btn-primary:hover {
+    background-color: #ffa200 !important;
+    border-color: #ffa200 !important;
+}
+.bg-account-pages {
+    background: #fff;
+}
+.bg-account-pages .left_container h2 {
+    font-family: "Karla-Bold";
+    font-size: 48px;
+    background: linear-gradient(to right, #a72dcb 0%, #b831e0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bg-account-pages .left_container a {
+    color: #a72dcb;
+}
+.bg-account-pages .left_container .account-box-bottom {
+    padding-right: 15px;
+}
+.account-box {
+    height: 713px;
+    width: 899px;
+    padding: 80px 180px;
+    max-width: 100%;
+    background-color: initial !important;
+    height: 100%;
+}
+.account-pages {
+    display: block;
+    background: #fff;
+    border-radius: 5px;
+}
+.account-logo-box {
+    padding: 0px 20px 50px;
+}
+.account-box .account-content {
+    padding: 20px;
+}
+.account-box .form-control {
+    padding: 0.7rem 0.75rem;
+}
+.form-control:focus {
+    border: 1px solid #000;
+}
+.testimonial-rating svg {
+    fill: rgb(241, 196, 15);
+}
+.content-container {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.content-container .header {
+    font-size: 32px;
+}
+.content-container .content {
+    font-size: 24px;
+}
+.form-container {
+    height: auto;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+}
+.register-form-container .register-btn {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+}
+.navbar-custom .navbar-toggle span {
+    background-color: #a72dcb;
+}
+.navbar-custom .nav-link {
+    color: #a72dcb;
+}
+#sidebar-menu > ul > li > a.active {
+    color: #a72dcb;
+    background-color: #f3e8f7;
+    border-right-color: #a72dcb;
+}
+.form-control {
+    border: 1px solid #a72dcb;
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: none;
+    }
+}
+.wrapper-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.justify-content-center {
+    height: 100vh;
+}
